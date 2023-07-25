@@ -25,15 +25,16 @@ export const ButtonDeleting = styled.button`
   border: 1px solid black;
   border-radius: ${props => props.theme.spacing(1)};
   cursor: pointer;
-  background: #e91e63;
-  color: honeydew;
+  background: #8e8e99;
+  color: black;
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out,
     border-color 0.25s ease-in-out;
+  box-shadow: 0 14px 28px rgba(6, 2, 4, 0.25), 0 10px 10px rgba(3, 5, 8, 0.22);
 
   &:hover,
   &:focus {
-    background: #1d1de3;
-    color: black;
+    background: honeydew;
+    color: #3e3e40;
     border: 1px solid #1d1de3;
   }
 `;

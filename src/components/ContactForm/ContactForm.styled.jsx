@@ -44,7 +44,7 @@ export const ButtonAdding = styled.button`
 
   &:hover,
   &:focus {
-    background: #b5b5ec;
+    background: honeydew;
     color: #3e3e40;
     border: 1px solid #1d1de3;
   }

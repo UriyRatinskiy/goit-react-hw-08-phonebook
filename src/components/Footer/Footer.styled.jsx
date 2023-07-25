@@ -14,5 +14,5 @@ export const PhonebookFooter = styled.footer`
 export const FooterText = styled.p`
   margin: 0;
   text-align: center;
-  color: bisque;
+  color: black;
 `;
