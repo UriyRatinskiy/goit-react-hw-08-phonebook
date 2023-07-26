@@ -43,7 +43,7 @@ const RegisterPage = () => {
   return (
     <main style={{ height: '100%' }}>
       <RegisterGroup>
-        <RegisterTitle>Please Sign in Your Phonebook</RegisterTitle>
+        <RegisterTitle>Sign in Your Phonebook</RegisterTitle>
 
         <Form onSubmit={handleSubmit}>
           <LabelField>

@@ -40,7 +40,7 @@ const LoginPage = () => {
     return (
         <main style={{height: "100%"}}>
             <RegisterGroup>
-                <RegisterTitle>Please Log in Your Phonebook</RegisterTitle>
+                <RegisterTitle>Log in Your Phonebook</RegisterTitle>
 
                 <Form onSubmit={handleSubmit}>
                     <LabelField>
